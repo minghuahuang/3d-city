@@ -21,7 +21,8 @@ yarn build
 "@vue/cli-service": "~5.0.4",  
 yarn install
 ```
-[here](https://github.com/coreui/coreui-free-vue-admin-template/issues/275)
+[here](https://github.com/coreui/coreui-free-vue-admin-template/issues/275)  
+
 2. ERROR TypeError: transpileDependencies.map is not a function   
 ```
 "@vue/cli-plugin-babel": "~5.0.0",
