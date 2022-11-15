@@ -1,18 +1,11 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+	<div class="home">
+		<h1>test shader</h1>
+	</div>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+<script setup>
+	import vertex from "@/shader/test/vertex.glsl";
 
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
+	console.log(vertex);
 </script>
