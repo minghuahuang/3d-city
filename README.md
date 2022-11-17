@@ -1,5 +1,8 @@
 # 3d-city
 
+## 使用技术  
+vue3.0 + three + mitt + apifox
+
 ## Project setup
 ```
 yarn install
@@ -14,6 +17,9 @@ yarn serve
 ```
 yarn build
 ```
+
+### mock通过apifox模拟
+  
 
 ### 问题
 1. ERROR TypeError: defineConfig is not a function  
